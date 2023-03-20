@@ -25,10 +25,6 @@ const telefon = ref('');
 
     <p>Telefon Nummer: {{ telefon }}</p>
     <input v-model="telefon" placeholder="Skriv dit telefon nummer">
-
-  <h3>Navn: FORNAVN EFTERNAVN</h3>
-  <p>Email: EMAIL</p>
-  <p>Fødseldato: FØDSELSDATO</p>
   </div>
 
 </template>
