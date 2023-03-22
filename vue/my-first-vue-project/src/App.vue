@@ -1,10 +1,19 @@
 <script setup>
 
 import { ref } from 'vue';
-const email = ref('');
-const fornavn = ref('');
-const efternavn = ref('');
-const telefon = ref('');
+
+// const email = ref('');
+// const fornavn = ref('');
+// const efternavn = ref('');
+// const telefon = ref('');
+
+const navn = ref ('');
+const mail = ref ('');
+const telnr = ref ('');
+
+function onSubmit() {
+  alert(`navn: ${navn.value}, email: ${mail.value}, telefon nummer: ${telnr.value}`);
+}
 
 </script>
 
